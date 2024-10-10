@@ -4,6 +4,8 @@
 
 ---
 
+- https://yzkn.github.io/JavaScript-ReverseGeocoding-GsiMaps
+
 - https://maps.gsi.go.jp/js/muni.js
 
 ---
