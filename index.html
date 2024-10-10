@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ジオコーディング／逆ジオコーディング</title>
+</head>
+
+<body>
+    <script src="revgeocoding.js"></script>
+    <script src="https://maps.gsi.go.jp/js/muni.js"></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', async (event) => {
+            console.log('reverseGeocoding', await geocoding('東京都千代田区千代田'));
+            console.log('reverseGeocoding', await reverseGeocoding(35.681236, 139.767125));
+        });
+    </script>
+</body>
+
+</html><!-- Copyright (c) 2024 YA-androidapp(https://github.com/yzkn) All rights reserved. -->
